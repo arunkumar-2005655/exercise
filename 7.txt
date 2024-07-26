@@ -1,2 +1,3 @@
 this is 7 text file
 to remote server
+print
