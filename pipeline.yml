@@ -1,0 +1,23 @@
+pipeline {
+
+    agent any
+
+ 
+
+    stages {
+
+        stage('Build') {
+
+            steps {
+
+                git branch: 'features', url: 'https://github.com/arunkumar-2005655/exercise.git'
+
+                sh 'ls -la'
+
+            }
+
+        }
+
+    }
+
+}
