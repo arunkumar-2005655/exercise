@@ -13,6 +13,7 @@ pipeline {
                 git branch: 'features', url: 'https://github.com/arunkumar-2005655/exercise.git'
 
                 sh 'ls -la'
+                sh 'echo "hello"'
 
             }
 
